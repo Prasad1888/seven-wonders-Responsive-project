@@ -1,0 +1,451 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #0C1927;
+  color: #EDEDED;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
+}
+
+.maincontainer>header>h1 {
+  text-align: center;
+  margin: 3rem 0rem 3rem 0rem;
+}
+
+/* styling for first wonder */
+.headingoffirstwonder {
+  /* background: aliceblue; */
+  text-align: center;
+  margin: 3rem 0rem 3rem 0rem;
+}
+
+
+.containeroffirstwonder {
+  display: flex;
+  justify-content: space-around;
+}
+
+.firstwonder>img {
+  width: 38rem;
+  animation-name: imgslide;
+  animation-duration: 1.5s;
+
+}
+
+.description1 {
+  display: flex;
+  align-items: center;
+  /* background: beige; */
+  text-align: center;
+  width: 40rem;
+  animation-name: description1anime;
+  animation-duration: 1.5s;
+}
+
+
+
+.description1>p {
+  line-height: 2rem;
+  font-size: 20px;
+  /* word-spacing: 0.5rem; */
+  letter-spacing: 0.1rem;
+}
+
+
+/* styling for second wonder */
+
+.headingofsecondwonder {
+  /* background: aliceblue; */
+  text-align: center;
+  margin: 3rem 0rem 3rem 0rem;
+}
+
+.containerofsecondwonder {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.secondwonder>img {
+  width: 38rem;
+  height: 31rem;
+  animation-name: secondimgslide;
+  animation-duration: 3.5s;
+
+}
+
+.description2 {
+  display: flex;
+  align-items: center;
+  /* background: beige; */
+  text-align: center;
+  width: 40rem;
+  animation-name: description2anime;
+  animation-duration: 3.5s;
+}
+
+
+.description2>p {
+  line-height: 2rem;
+  font-size: 20px;
+  /* word-spacing: 0.5rem; */
+  letter-spacing: 0.1rem;
+}
+
+/* styling for third wonder */
+.headingofthirdwonder {
+  /* background: aliceblue; */
+  text-align: center;
+  margin: 3rem 0rem 3rem 0rem;
+  ;
+}
+
+
+.containerofthirdwonder {
+  display: flex;
+  justify-content: space-around;
+}
+
+.thirdwonder>img {
+  width: 38rem;
+  height: 31rem;
+  animation-name: thirdimgslide;
+  animation-duration: 4s;
+
+}
+
+
+.description3 {
+  display: flex;
+  align-items: center;
+  /* background: beige; */
+  text-align: center;
+  width: 40rem;
+  animation-name: description3anime;
+  animation-duration: 4s;
+}
+
+.description3>p {
+  line-height: 2rem;
+  font-size: 20px;
+  /* word-spacing: 0.5rem; */
+  letter-spacing: 0.1rem;
+}
+
+/* styling for fourth wonder */
+
+.headingoffourthwonder {
+  /* background: aliceblue; */
+  text-align: center;
+  margin: 3rem 0rem 3rem 0rem;
+}
+
+
+.containeroffourthwonder {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.fourthwonder>img {
+  width: 38rem;
+  height: 31rem;
+  animation-name: fourthimgslide;
+  animation-duration: 3.5s;
+
+}
+
+.description4 {
+  display: flex;
+  align-items: center;
+  /* background: beige; */
+  text-align: center;
+  width: 40rem;
+  animation-name: description4anime;
+  animation-duration: 3.5s;
+}
+
+.description4>p {
+  line-height: 2rem;
+  font-size: 20px;
+  /* word-spacing: 0.5rem; */
+  letter-spacing: 0.1rem;
+}
+
+/* styling for fifth wonder */
+.headingoffifthwonder {
+  /* background: aliceblue; */
+  text-align: center;
+  margin: 3rem 0rem 3rem 0rem;
+}
+
+
+.containeroffifthwonder {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fifthwonder>img {
+  width: 33rem;
+  height: 31rem;
+  animation-name: fifthimgslide;
+  animation-duration: 3.5s;
+
+}
+
+.description5 {
+  display: flex;
+  align-items: center;
+  /* background: beige; */
+  text-align: center;
+  width: 40rem;
+  animation-name: description5anime;
+  animation-duration: 4s;
+}
+
+.description5>p {
+  line-height: 2rem;
+  font-size: 20px;
+  /* word-spacing: 0.5rem; */
+  letter-spacing: 0.1rem;
+}
+
+
+/* styling for fourth wonder */
+
+.headingofsixthwonder {
+  /* background: aliceblue; */
+  text-align: center;
+  margin: 3rem 0rem 3rem 0rem;
+}
+
+
+.containerofsixthwonder {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.sixthwonder>img {
+  width: 38rem;
+  height: 31rem;
+  animation-name: fourthimgslide;
+  animation-duration: 3.5s;
+
+}
+
+.description6 {
+  display: flex;
+  align-items: center;
+  /* background: beige; */
+  text-align: center;
+  width: 40rem;
+  animation-name: description4anime;
+  animation-duration: 3.5s;
+}
+
+.description6>p {
+  line-height: 2rem;
+  font-size: 20px;
+  /* word-spacing: 0.5rem; */
+  letter-spacing: 0.1rem;
+}
+
+/* styling for fifth wonder */
+.headingofseventhwonder {
+  /* background: aliceblue; */
+  text-align: center;
+  margin: 3rem 0rem 3rem 0rem;
+}
+
+
+.containerofseventhwonder {
+  display: flex;
+  justify-content: space-around;
+}
+
+.seventhwonder>img {
+  width: 38rem;
+  height: 31rem;
+  animation-name: fifthimgslide;
+  animation-duration: 3.5s;
+
+}
+
+.description7 {
+  display: flex;
+  align-items: center;
+  /* background: beige; */
+  text-align: center;
+  width: 40rem;
+  animation-name: description5anime;
+  animation-duration: 4s;
+}
+
+.description7>p {
+  line-height: 2rem;
+  font-size: 20px;
+  /* word-spacing: 0.5rem; */
+  letter-spacing: 0.1rem;
+}
+
+/* responsive part */
+
+@media (max-width:769px) and (min-width:320px) {
+  body {
+    background-color: black;
+  }
+
+  .maincontainer>header>h1 {
+    margin: 3rem 5rem;
+    /* background: violet; */
+    width: 31rem;
+    font-size: 34px;
+  }
+
+  .headingoffirstwonder {
+    /* background: purple; */
+    margin: 3rem 10rem;
+    width: 19rem;
+    font-size: 33px;
+  }
+
+  .firstwonder>img {
+    width: 40rem;
+  }
+
+  .containeroffirstwonder {
+    flex-direction: column;
+  }
+
+  .description1>p {
+    line-height: 2.5rem;
+    font-size: 30px;
+  }
+
+  .headingofsecondwonder {
+    /* background: purple; */
+    margin: 3rem 10rem;
+    width: 19rem;
+    font-size: 33px;
+  }
+
+  .secondwonder>img {
+    width: 40rem;
+  }
+
+  .containerofsecondwonder {
+    flex-direction: column;
+  }
+
+  .description2>p {
+    line-height: 2.5rem;
+    font-size: 30px;
+  }
+
+  .headingofthirdwonder {
+    /* background: purple; */
+    margin: 3rem 10rem;
+    width: 19rem;
+    font-size: 33px;
+  }
+
+  .thirdwonder>img {
+    width: 40rem;
+  }
+
+  .containerofthirdwonder {
+    flex-direction: column;
+  }
+
+  .description3>p {
+    line-height: 2.5rem;
+    font-size: 30px;
+  }
+
+  .headingoffourthwonder {
+    /* background: purple; */
+    margin: 3rem 10rem;
+    width: 19rem;
+    font-size: 33px;
+  }
+
+  .fourthwonder>img {
+    width: 40rem;
+  }
+
+  .containeroffourthwonder {
+    flex-direction: column;
+  }
+
+  .description4>p {
+    line-height: 2.5rem;
+    font-size: 30px;
+  }
+
+  .headingoffifthwonder {
+    /* background: purple; */
+    margin: 3rem 10rem;
+    width: 19rem;
+    font-size: 33px;
+  }
+
+
+  .fifthwonder>img {
+    width: 40rem;
+  }
+
+  .containeroffifthwonder {
+    flex-direction: column;
+  }
+
+  .description5>p {
+    line-height: 2.5rem;
+    font-size: 30px;
+  }
+
+  .headingofsixthwonder {
+    /* background: purple; */
+    margin: 3rem 10rem;
+    width: 19rem;
+    font-size: 33px;
+  }
+
+  .sixthwonder>img {
+    width: 40rem;
+  }
+
+  .containerofsixthwonder {
+    flex-direction: column;
+  }
+
+  .description6>p {
+    line-height: 2.5rem;
+    font-size: 30px;
+  }
+
+  .headingofseventhwonder {
+    /* background: purple; */
+    margin: 3rem 10rem;
+    width: 19rem;
+    font-size: 33px;
+  }
+
+  .seventhwonder>img {
+    width: 40rem;
+  }
+
+  .containerofseventhwonder {
+    flex-direction: column;
+  }
+
+  .description7>p {
+    line-height: 2.5rem;
+    font-size: 30px;
+  }
+}
